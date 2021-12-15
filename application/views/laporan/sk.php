@@ -157,6 +157,7 @@
                                 content += '<tr><td><b>No. Surat</b></td><td>:</td><td>' + val.no_surat + '</td></tr>';
                                 content += '<tr><td><b>Isi Ringkas</b></td><td>:</td><td class="text-justify">' + val.isi + '</td></tr>';
                                 content += '<tr><td><b>Keterangan</b></td><td>:</td><td class="text-justify">' + val.keterangan + '</td></tr>';
+                                content += '<tr><td><b>Pengirim</b></td><td>:</td><td class="text-justify">' + val.user_id + '</td></tr>';
                                 content += '<tr><td><b>File</b></td><td>:</td><td class="text-justify"><a href="<?= base_url("uploads/") ?>' + val.file + '" download>Download</a></td></tr>';
                                 content += '</table></td></tr>';
                             })

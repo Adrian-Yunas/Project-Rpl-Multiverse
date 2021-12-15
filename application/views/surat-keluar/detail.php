@@ -27,7 +27,7 @@
                             <?= date('d M Y', strtotime($surat['tgl_surat'])); ?>
                         </div>
                     </div>
-                    <hr>
+
                     <hr>
                     <div class="row">
                         <div class="col-md-3">Alamat Mitra</div>
